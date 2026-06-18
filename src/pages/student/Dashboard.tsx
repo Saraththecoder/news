@@ -379,7 +379,7 @@ export default function StudentDashboard() {
            
            <div className="flex flex-col sm:flex-row gap-6 w-full max-w-md">
               <motion.div whileHover={{ scale: 1.02 }} className="w-full sm:w-1/2 aspect-square bg-slate-100 rounded-2xl border overflow-hidden relative shadow-inner cursor-pointer group">
-                 <img src="https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&w=500&q=80" alt="Selfie" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" />
+                 <img src="https://picsum.photos/seed/selfie/500/500" alt="Selfie" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" />
                  <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-destructive to-destructive/80 p-3 text-white text-center backdrop-blur-sm">
                     <p className="text-[11px] font-black tracking-widest mb-0.5">VOTE FOR IMPACT</p>
                     <p className="text-[7px] uppercase tracking-widest opacity-80 font-semibold">Social News Global Campaign 2024</p>

@@ -15,7 +15,7 @@ export const mockCampaigns = [
     id: "CAMP-001",
     title: "Reforest the Amazon 2024",
     description: "Supporting local indigenous communities in large-scale reforestation and biodiversity conservation.",
-    image: "https://images.unsplash.com/photo-1511497584788-876760111969?auto=format&fit=crop&q=80&w=800",
+    image: "https://picsum.photos/seed/img1/800/600",
     collected: 75000,
     goal: 100000,
     progress: 75,
@@ -26,7 +26,7 @@ export const mockCampaigns = [
     id: "CAMP-002",
     title: "Tech Literacy for All",
     description: "Distributing 5,000 refurbished laptops to underprivileged students and providing basic tech education.",
-    image: "https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&q=80&w=800",
+    image: "https://picsum.photos/seed/img2/800/600",
     collected: 250000,
     goal: 550000,
     progress: 45,
@@ -37,7 +37,7 @@ export const mockCampaigns = [
     id: "CAMP-003",
     title: "Clean Energy Initiative",
     description: "Funding the installation of solar micro-grids in off-grid rural communities to power schools and clinics.",
-    image: "https://images.unsplash.com/photo-1508514177221-188b1cf16e9d?auto=format&fit=crop&q=80&w=800",
+    image: "https://picsum.photos/seed/img3/800/600",
     collected: 1840000,
     goal: 2100000,
     progress: 88,
@@ -88,28 +88,28 @@ export const mockProducts = [
     name: "Artisan Linen Tote",
     price: 35.00,
     description: "Support women's cooperatives",
-    image: "https://images.unsplash.com/photo-1597589827317-4c6d6e0a90bd?auto=format&fit=crop&q=80&w=500"
+    image: "https://picsum.photos/seed/img4/800/600"
   },
   {
     id: "PROD-002",
     name: "Sustainable Hydration Flask",
     price: 28.00,
     description: "1 Flask = 100L Clean Water",
-    image: "https://images.unsplash.com/photo-1602143407151-7111542de6e8?auto=format&fit=crop&q=80&w=500"
+    image: "https://picsum.photos/seed/img5/800/600"
   },
   {
     id: "PROD-003",
     name: "Direct Trade Coffee",
     price: 18.00,
     description: "Directly Sourced from Ethiopia",
-    image: "https://images.unsplash.com/photo-1559525839-b184a4d698c7?auto=format&fit=crop&q=80&w=500"
+    image: "https://picsum.photos/seed/img6/800/600"
   },
   {
     id: "PROD-004",
     name: "Solar Task Lamp",
     price: 55.00,
     description: "Off-grid Power Solution",
-    image: "https://images.unsplash.com/photo-1507494924047-9d48240560ec?auto=format&fit=crop&q=80&w=500"
+    image: "https://picsum.photos/seed/img7/800/600"
   }
 ];
 
@@ -266,7 +266,7 @@ export const mockArticles = [
     excerpt: "The state government today announced a massive investment package to develop Visakhapatnam as a premier IT destination, promising thousands of new jobs.",
     content: "Full details of the IT hub investment in Visakhapatnam...",
     category: "ap",
-    image: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80&w=800",
+    image: "https://picsum.photos/seed/img8/800/600",
     date: "2 hours ago",
     author: "Special Correspondent"
   },
@@ -276,7 +276,7 @@ export const mockArticles = [
     excerpt: "The detailed project report for the Phase 3 expansion of the Hyderabad Metro has been officially submitted to the central government for approval.",
     content: "Details regarding Hyderabad Metro Phase 3...",
     category: "ts",
-    image: "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&q=80&w=800",
+    image: "https://picsum.photos/seed/img9/800/600",
     date: "4 hours ago",
     author: "City Bureau"
   },
@@ -286,7 +286,7 @@ export const mockArticles = [
     excerpt: "The monsoon session of the Parliament has commenced today with the opposition demanding a discussion on inflation and employment generation.",
     content: "National news coverage on parliament...",
     category: "national",
-    image: "https://images.unsplash.com/photo-1541872703-74c5e44368f9?auto=format&fit=crop&q=80&w=800",
+    image: "https://picsum.photos/seed/img10/800/600",
     date: "5 hours ago",
     author: "National Desk"
   },
@@ -296,7 +296,7 @@ export const mockArticles = [
     excerpt: "Experts from around the world convene to discuss the ethical implications and future trajectory of artificial intelligence.",
     content: "International AI summit details...",
     category: "international",
-    image: "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&q=80&w=800",
+    image: "https://picsum.photos/seed/img11/800/600",
     date: "6 hours ago",
     author: "World News"
   },
@@ -306,7 +306,7 @@ export const mockArticles = [
     excerpt: "The recently released action thriller has been declared a blockbuster, crossing the coveted 100 crore mark in its opening weekend.",
     content: "Cinema box office details...",
     category: "cinema",
-    image: "https://images.unsplash.com/photo-1536440136628-849c177e76a1?auto=format&fit=crop&q=80&w=800",
+    image: "https://picsum.photos/seed/img12/800/600",
     date: "7 hours ago",
     author: "Entertainment Desk"
   },
@@ -316,7 +316,7 @@ export const mockArticles = [
     excerpt: "In a nail-biting finish, the national cricket team secured a brilliant victory against their rivals in the T20 series decider.",
     content: "Sports match summary...",
     category: "sports",
-    image: "https://images.unsplash.com/photo-1531415074968-036ba1b575da?auto=format&fit=crop&q=80&w=800",
+    image: "https://picsum.photos/seed/img13/800/600",
     date: "8 hours ago",
     author: "Sports Correspondent"
   },
@@ -326,7 +326,7 @@ export const mockArticles = [
     excerpt: "The Reserve Bank of India has decided to keep the repo rate unchanged for the third consecutive time as retail inflation shows signs of cooling.",
     content: "Business economy details...",
     category: "business",
-    image: "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&q=80&w=800",
+    image: "https://picsum.photos/seed/img14/800/600",
     date: "9 hours ago",
     author: "Business Bureau"
   },
@@ -336,37 +336,37 @@ export const mockArticles = [
     excerpt: "The TTD has commenced massive arrangements for the upcoming annual Brahmotsavam, expecting millions of devotees.",
     content: "Devotional news from AP...",
     category: "ap",
-    image: "https://images.unsplash.com/photo-1623062366113-1fcd68407cd2?auto=format&fit=crop&q=80&w=800",
+    image: "https://picsum.photos/seed/tirupati/800/600",
     date: "10 hours ago",
     author: "Local Reporter"
   },
-  { id: "ART-AP1", title: "Amaravati Capital Works to Resume Swiftly", excerpt: "Government sanctions funds to restart capital development projects.", content: "Full content...", category: "ap", image: "https://images.unsplash.com/photo-1517048676732-d65bc937f952?auto=format&fit=crop&w=800", date: "11 hours ago", author: "Staff" },
-  { id: "ART-AP2", title: "Polavaram Project Reaches Crucial Milestone", excerpt: "The spillway concrete work completes, pushing the project closer to realization.", content: "Full content...", category: "ap", image: "https://images.unsplash.com/photo-1469334031218-e382a71b716b?auto=format&fit=crop&w=800", date: "12 hours ago", author: "Staff" },
-  { id: "ART-AP3", title: "New Coastal Corridor Proposed for State", excerpt: "A massive industrial corridor along the coast to boost employment.", content: "Full content...", category: "ap", image: "https://images.unsplash.com/photo-1506521781263-d8422e82f27a?auto=format&fit=crop&w=800", date: "13 hours ago", author: "Staff" },
+  { id: "ART-AP1", title: "Amaravati Capital Works to Resume Swiftly", excerpt: "Government sanctions funds to restart capital development projects.", content: "Full content...", category: "ap", image: "https://picsum.photos/seed/img15/800/600", date: "11 hours ago", author: "Staff" },
+  { id: "ART-AP2", title: "Polavaram Project Reaches Crucial Milestone", excerpt: "The spillway concrete work completes, pushing the project closer to realization.", content: "Full content...", category: "ap", image: "https://picsum.photos/seed/img16/800/600", date: "12 hours ago", author: "Staff" },
+  { id: "ART-AP3", title: "New Coastal Corridor Proposed for State", excerpt: "A massive industrial corridor along the coast to boost employment.", content: "Full content...", category: "ap", image: "https://picsum.photos/seed/img17/800/600", date: "13 hours ago", author: "Staff" },
 
-  { id: "ART-TS1", title: "Hyderabad IT Exports Cross New Record", excerpt: "Telangana reports a 20% surge in IT exports this financial year.", content: "Full content...", category: "ts", image: "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?auto=format&fit=crop&w=800", date: "2 hours ago", author: "Staff" },
-  { id: "ART-TS2", title: "Musam River Rejuvenation Project Announced", excerpt: "State government to allocate 500 crores to clean and revitalize the river.", content: "Full content...", category: "ts", image: "https://images.unsplash.com/photo-1542314831-c6a4d14d237b?auto=format&fit=crop&w=800", date: "3 hours ago", author: "Staff" },
-  { id: "ART-TS3", title: "New Flyover Inaugurated in Secunderabad", excerpt: "Traffic woes expected to ease with the opening of the 3km flyover.", content: "Full content...", category: "ts", image: "https://images.unsplash.com/photo-1449034446853-66c86144b0ad?auto=format&fit=crop&w=800", date: "4 hours ago", author: "Staff" },
+  { id: "ART-TS1", title: "Hyderabad IT Exports Cross New Record", excerpt: "Telangana reports a 20% surge in IT exports this financial year.", content: "Full content...", category: "ts", image: "https://picsum.photos/seed/img18/800/600", date: "2 hours ago", author: "Staff" },
+  { id: "ART-TS2", title: "Musam River Rejuvenation Project Announced", excerpt: "State government to allocate 500 crores to clean and revitalize the river.", content: "Full content...", category: "ts", image: "https://picsum.photos/seed/musi/800/600", date: "3 hours ago", author: "Staff" },
+  { id: "ART-TS3", title: "New Flyover Inaugurated in Secunderabad", excerpt: "Traffic woes expected to ease with the opening of the 3km flyover.", content: "Full content...", category: "ts", image: "https://picsum.photos/seed/img19/800/600", date: "4 hours ago", author: "Staff" },
 
-  { id: "ART-NAT1", title: "Elections: Historic Voter Turnout Recorded", excerpt: "Citizens cast their votes in record numbers across 15 states.", content: "Full content...", category: "national", image: "https://images.unsplash.com/photo-1555848962-6e79363ec58f?auto=format&fit=crop&w=800", date: "1 hour ago", author: "Staff" },
-  { id: "ART-NAT2", title: "Union Budget Focuses on Infrastructure", excerpt: "Finance Minister outlines massive spending on roads, railways, and ports.", content: "Full content...", category: "national", image: "https://images.unsplash.com/photo-1580519542036-ed47f3e42214?auto=format&fit=crop&w=800", date: "2 hours ago", author: "Staff" },
-  { id: "ART-NAT3", title: "ISRO Plans New Lunar Mission Launch", excerpt: "The space agency is gearing up for its next ambitious moon landing attempt.", content: "Full content...", category: "national", image: "https://images.unsplash.com/photo-1541185933-ef5d8ed016c2?auto=format&fit=crop&w=800", date: "3 hours ago", author: "Staff" },
+  { id: "ART-NAT1", title: "Elections: Historic Voter Turnout Recorded", excerpt: "Citizens cast their votes in record numbers across 15 states.", content: "Full content...", category: "national", image: "https://picsum.photos/seed/img20/800/600", date: "1 hour ago", author: "Staff" },
+  { id: "ART-NAT2", title: "Union Budget Focuses on Infrastructure", excerpt: "Finance Minister outlines massive spending on roads, railways, and ports.", content: "Full content...", category: "national", image: "https://picsum.photos/seed/img21/800/600", date: "2 hours ago", author: "Staff" },
+  { id: "ART-NAT3", title: "ISRO Plans New Lunar Mission Launch", excerpt: "The space agency is gearing up for its next ambitious moon landing attempt.", content: "Full content...", category: "national", image: "https://picsum.photos/seed/img22/800/600", date: "3 hours ago", author: "Staff" },
 
-  { id: "ART-INT1", title: "Global Climate Summit Concludes with Pledge", excerpt: "190 nations agree to phase down fossil fuels by 2040.", content: "Full content...", category: "international", image: "https://images.unsplash.com/photo-1611273426858-450d8e3c9fce?auto=format&fit=crop&w=800", date: "4 hours ago", author: "Staff" },
-  { id: "ART-INT2", title: "Major Breakthrough in Quantum Computing", excerpt: "Researchers achieve new stability record in quantum state manipulation.", content: "Full content...", category: "international", image: "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800", date: "5 hours ago", author: "Staff" },
-  { id: "ART-INT3", title: "European Markets Rally on Positive Data", excerpt: "Inflation cools faster than expected across the Eurozone.", content: "Full content...", category: "international", image: "https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?auto=format&fit=crop&w=800", date: "6 hours ago", author: "Staff" },
+  { id: "ART-INT1", title: "Global Climate Summit Concludes with Pledge", excerpt: "190 nations agree to phase down fossil fuels by 2040.", content: "Full content...", category: "international", image: "https://picsum.photos/seed/img23/800/600", date: "4 hours ago", author: "Staff" },
+  { id: "ART-INT2", title: "Major Breakthrough in Quantum Computing", excerpt: "Researchers achieve new stability record in quantum state manipulation.", content: "Full content...", category: "international", image: "https://picsum.photos/seed/img24/800/600", date: "5 hours ago", author: "Staff" },
+  { id: "ART-INT3", title: "European Markets Rally on Positive Data", excerpt: "Inflation cools faster than expected across the Eurozone.", content: "Full content...", category: "international", image: "https://picsum.photos/seed/img25/800/600", date: "6 hours ago", author: "Staff" },
 
-  { id: "ART-CIN1", title: "Top Director's Pan-India Film Teaser Drops", excerpt: "Fans go wild as the first glimpse of the historical epic hits YouTube.", content: "Full content...", category: "cinema", image: "https://images.unsplash.com/photo-1485846234645-a62644f84728?auto=format&fit=crop&w=800", date: "7 hours ago", author: "Staff" },
-  { id: "ART-CIN2", title: "Veteran Actor Honored with Lifetime Award", excerpt: "A legendary career celebrated at the prestigious national film awards.", content: "Full content...", category: "cinema", image: "https://images.unsplash.com/photo-1536440136628-849c177e76a1?auto=format&fit=crop&w=800", date: "8 hours ago", author: "Staff" },
-  { id: "ART-CIN3", title: "Box Office: Small Budget Indie Film is a Hit", excerpt: "The emotional drama continues to draw massive crowds in its third week.", content: "Full content...", category: "cinema", image: "https://images.unsplash.com/photo-1517604931442-7e0c8ed2963c?auto=format&fit=crop&w=800", date: "9 hours ago", author: "Staff" },
+  { id: "ART-CIN1", title: "Top Director's Pan-India Film Teaser Drops", excerpt: "Fans go wild as the first glimpse of the historical epic hits YouTube.", content: "Full content...", category: "cinema", image: "https://picsum.photos/seed/img26/800/600", date: "7 hours ago", author: "Staff" },
+  { id: "ART-CIN2", title: "Veteran Actor Honored with Lifetime Award", excerpt: "A legendary career celebrated at the prestigious national film awards.", content: "Full content...", category: "cinema", image: "https://picsum.photos/seed/img27/800/600", date: "8 hours ago", author: "Staff" },
+  { id: "ART-CIN3", title: "Box Office: Small Budget Indie Film is a Hit", excerpt: "The emotional drama continues to draw massive crowds in its third week.", content: "Full content...", category: "cinema", image: "https://picsum.photos/seed/img28/800/600", date: "9 hours ago", author: "Staff" },
 
-  { id: "ART-SPT1", title: "Olympians Return Home to Grand Welcome", excerpt: "Medalists receive hero's welcome at the national airport.", content: "Full content...", category: "sports", image: "https://images.unsplash.com/photo-1461896836934-ffe607ba8211?auto=format&fit=crop&w=800", date: "10 hours ago", author: "Staff" },
-  { id: "ART-SPT2", title: "Tennis: Young Sensation Wins Grand Slam", excerpt: "A stunning upset in straight sets crowns a new champion.", content: "Full content...", category: "sports", image: "https://images.unsplash.com/photo-1599586120429-48281b6f0ece?auto=format&fit=crop&w=800", date: "11 hours ago", author: "Staff" },
-  { id: "ART-SPT3", title: "Football League Finale Ends in Penalty Shootout", excerpt: "The championship decided in a nail-biting finish under the lights.", content: "Full content...", category: "sports", image: "https://images.unsplash.com/photo-1518605368461-1e12dbfcdb0c?auto=format&fit=crop&w=800", date: "12 hours ago", author: "Staff" },
+  { id: "ART-SPT1", title: "Olympians Return Home to Grand Welcome", excerpt: "Medalists receive hero's welcome at the national airport.", content: "Full content...", category: "sports", image: "https://picsum.photos/seed/img29/800/600", date: "10 hours ago", author: "Staff" },
+  { id: "ART-SPT2", title: "Tennis: Young Sensation Wins Grand Slam", excerpt: "A stunning upset in straight sets crowns a new champion.", content: "Full content...", category: "sports", image: "https://picsum.photos/seed/img30/800/600", date: "11 hours ago", author: "Staff" },
+  { id: "ART-SPT3", title: "Football League Finale Ends in Penalty Shootout", excerpt: "The championship decided in a nail-biting finish under the lights.", content: "Full content...", category: "sports", image: "https://picsum.photos/seed/img31/800/600", date: "12 hours ago", author: "Staff" },
 
-  { id: "ART-BUS1", title: "Tech Startup Reaches Unicorn Status", excerpt: "The AI-driven local logistics firm secures massive Series C funding.", content: "Full content...", category: "business", image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800", date: "1 hour ago", author: "Staff" },
-  { id: "ART-BUS2", title: "Auto Industry Sees EV Sales Surge", excerpt: "Electric vehicles account for 30% of new car sales this quarter.", content: "Full content...", category: "business", image: "https://images.unsplash.com/photo-1593941707882-a5bba14938cb?auto=format&fit=crop&w=800", date: "2 hours ago", author: "Staff" },
-  { id: "ART-BUS3", title: "Gold Prices Hit New All-Time High", excerpt: "Investors flock to safe-haven assets amid global economic uncertainty.", content: "Full content...", category: "business", image: "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=800", date: "3 hours ago", author: "Staff" }
+  { id: "ART-BUS1", title: "Tech Startup Reaches Unicorn Status", excerpt: "The AI-driven local logistics firm secures massive Series C funding.", content: "Full content...", category: "business", image: "https://picsum.photos/seed/img32/800/600", date: "1 hour ago", author: "Staff" },
+  { id: "ART-BUS2", title: "Auto Industry Sees EV Sales Surge", excerpt: "Electric vehicles account for 30% of new car sales this quarter.", content: "Full content...", category: "business", image: "https://picsum.photos/seed/img33/800/600", date: "2 hours ago", author: "Staff" },
+  { id: "ART-BUS3", title: "Gold Prices Hit New All-Time High", excerpt: "Investors flock to safe-haven assets amid global economic uncertainty.", content: "Full content...", category: "business", image: "https://picsum.photos/seed/img34/800/600", date: "3 hours ago", author: "Staff" }
 ];
 
 export const getArticlesByCategory = (categoryId: string) => {

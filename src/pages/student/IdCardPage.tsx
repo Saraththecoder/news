@@ -40,7 +40,7 @@ export default function IdCardPage() {
         </p>
       </div>
 
-      <div className="bg-white p-8 rounded-3xl shadow-xl border border-border/50 relative mb-8">
+      <div className="bg-white p-4 sm:p-8 rounded-3xl shadow-xl border border-border/50 relative mb-8 overflow-x-auto max-w-full">
         
         <div 
           ref={cardRef} 

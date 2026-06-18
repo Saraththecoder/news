@@ -86,8 +86,8 @@ export default function SelfieFramePage() {
 
       <div className="lg:w-2/3 flex flex-col items-center justify-center bg-slate-50 rounded-3xl border border-border p-8 min-h-[500px]">
         {userImage ? (
-          <div className="relative shadow-2xl" ref={frameRef}>
-            <div className="w-[400px] h-[400px] relative overflow-hidden bg-white">
+          <div className="relative shadow-2xl w-full max-w-[400px] mx-auto" ref={frameRef}>
+            <div className="w-full aspect-square relative overflow-hidden bg-white">
               <img 
                 src={userImage} 
                 alt="User Upload" 

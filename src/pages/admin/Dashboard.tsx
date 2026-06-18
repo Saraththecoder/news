@@ -386,7 +386,7 @@ export default function AdminDashboard() {
                <div className="space-y-4">
                   <motion.div whileHover={{ x: 4 }} className="flex items-center gap-4 p-3 rounded-xl border border-transparent hover:border-border hover:bg-slate-50/50 transition-all cursor-pointer">
                      <div className="w-14 h-14 rounded-lg bg-slate-100 border overflow-hidden shadow-sm">
-                       <img src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=150&q=80" alt="T-Shirt" className="w-full h-full object-cover" />
+                       <img src="https://picsum.photos/seed/tshirt/150/150" alt="T-Shirt" className="w-full h-full object-cover" />
                      </div>
                      <div className="flex-1">
                         <h5 className="text-sm font-bold text-secondary leading-tight">Impact T-Shirt v2</h5>
@@ -400,7 +400,7 @@ export default function AdminDashboard() {
 
                   <motion.div whileHover={{ x: 4 }} className="flex items-center gap-4 p-3 rounded-xl border border-transparent hover:border-border hover:bg-slate-50/50 transition-all cursor-pointer">
                      <div className="w-14 h-14 rounded-lg bg-slate-100 border overflow-hidden shadow-sm">
-                       <img src="https://images.unsplash.com/photo-1514228742587-6b1558fcca3d?auto=format&fit=crop&w=150&q=80" alt="Mug" className="w-full h-full object-cover" />
+                       <img src="https://picsum.photos/seed/mug/150/150" alt="Mug" className="w-full h-full object-cover" />
                      </div>
                      <div className="flex-1">
                         <h5 className="text-sm font-bold text-secondary leading-tight">Unity Ceramic Mug</h5>
