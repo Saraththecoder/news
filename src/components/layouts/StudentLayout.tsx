@@ -15,7 +15,8 @@ import {
   Search,
   HelpCircle,
   LogOut,
-  Menu
+  Menu,
+  Camera
 } from "lucide-react";
 import { mockUser } from "@/utils/mockData";
 
@@ -30,6 +31,7 @@ export function StudentLayout() {
     { icon: GraduationCap, label: "Quizzes", path: "/student/quizzes" },
     { icon: Award, label: "Certificates", path: "/student/certificates" },
     { icon: IdCard, label: "ID Card", path: "/student/id-card" },
+    { icon: Camera, label: "Selfie Frame", path: "/student/selfie-frame" },
     { icon: Store, label: "Marketplace", path: "/student/marketplace" },
     { icon: HeartHandshake, label: "Donations", path: "/student/donations" },
     { icon: Bell, label: "Notifications", path: "/student/notifications" },

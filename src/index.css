@@ -59,3 +59,23 @@
     @apply bg-background text-foreground;
   }
 }
+
+@layer utilities {
+  .animate-ticker {
+    animation: ticker 30s linear infinite;
+  }
+
+  @keyframes ticker {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+  /* Hover effect for news images */
+  .news-image-hover {
+    @apply transition-transform duration-500 hover:scale-105 cursor-pointer;
+  }
+}

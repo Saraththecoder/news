@@ -1,0 +1,64 @@
+import { Link } from "react-router-dom";
+import { mockCategories } from "@/utils/mockData";
+
+export function Footer() {
+  return (
+    <footer className="bg-secondary text-white pt-12 pb-6 border-t-[8px] border-primary mt-12">
+      <div className="max-w-7xl mx-auto px-4">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-10">
+          <div className="col-span-1 md:col-span-1">
+            <div className="bg-white text-primary font-black text-2xl px-3 py-1 tracking-tighter rounded-sm inline-block mb-4">
+              SOCIAL<span className="text-destructive">NEWS</span>
+            </div>
+            <p className="text-white/60 text-sm mb-6 pr-4 leading-relaxed">
+              Your trusted source for local community impact, volunteer campaigns, and the latest breaking news.
+            </p>
+            <div className="flex gap-3">
+              <div className="w-8 h-8 rounded-full bg-white/10 flex items-center justify-center hover:bg-destructive cursor-pointer transition-colors">f</div>
+              <div className="w-8 h-8 rounded-full bg-white/10 flex items-center justify-center hover:bg-destructive cursor-pointer transition-colors">x</div>
+              <div className="w-8 h-8 rounded-full bg-white/10 flex items-center justify-center hover:bg-destructive cursor-pointer transition-colors">in</div>
+              <div className="w-8 h-8 rounded-full bg-white/10 flex items-center justify-center hover:bg-destructive cursor-pointer transition-colors">yt</div>
+            </div>
+          </div>
+          
+          <div>
+            <h3 className="font-bold text-lg mb-4 text-white border-b border-white/20 pb-2">Categories</h3>
+            <ul className="space-y-2 text-sm text-white/70">
+              {mockCategories.filter(c => c.id !== 'home').slice(0, 5).map(cat => (
+                <li key={cat.id}><Link to={cat.path} className="hover:text-destructive transition-colors">{cat.label}</Link></li>
+              ))}
+            </ul>
+          </div>
+
+          <div>
+            <h3 className="font-bold text-lg mb-4 text-white border-b border-white/20 pb-2">Quick Links</h3>
+            <ul className="space-y-2 text-sm text-white/70">
+              <li><Link to="/events" className="hover:text-destructive transition-colors">Campaigns</Link></li>
+              <li><Link to="/marketplace" className="hover:text-destructive transition-colors">Marketplace</Link></li>
+              <li><Link to="/donations" className="hover:text-destructive transition-colors">Donate</Link></li>
+              <li><Link to="/login" className="hover:text-destructive transition-colors font-bold text-white">Volunteer Login</Link></li>
+              <li><Link to="#" className="hover:text-destructive transition-colors">Contact Us</Link></li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 className="font-bold text-lg mb-4 text-white border-b border-white/20 pb-2">Subscribe</h3>
+            <p className="text-sm text-white/70 mb-4">Get the latest news directly to your inbox.</p>
+            <div className="flex">
+              <input type="email" placeholder="Your Email" className="bg-white/10 border border-white/20 px-3 py-2 text-sm w-full focus:outline-none focus:border-white" />
+              <button className="bg-destructive text-white px-4 py-2 text-sm font-bold hover:bg-red-700 transition-colors">Go</button>
+            </div>
+          </div>
+        </div>
+
+        <div className="border-t border-white/10 pt-6 flex flex-col md:flex-row justify-between items-center text-xs text-white/50">
+          <p>© {new Date().getFullYear()} Social News Network. All rights reserved.</p>
+          <div className="flex gap-4 mt-4 md:mt-0">
+            <Link to="#" className="hover:text-white">Terms of Use</Link>
+            <Link to="#" className="hover:text-white">Privacy Policy</Link>
+          </div>
+        </div>
+      </div>
+    </footer>
+  );
+}

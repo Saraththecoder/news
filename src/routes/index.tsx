@@ -17,6 +17,8 @@ import QuizzesPage from "@/pages/student/QuizzesPage";
 import CertificatesPage from "@/pages/student/CertificatesPage";
 import MarketplacePage from "@/pages/student/MarketplacePage";
 import DonationsPage from "@/pages/student/DonationsPage";
+import IdCardPage from "@/pages/student/IdCardPage";
+import SelfieFramePage from "@/pages/student/SelfieFramePage";
 
 const router = createBrowserRouter([
   {
@@ -50,6 +52,8 @@ const router = createBrowserRouter([
       { path: "certificates", element: <CertificatesPage /> },
       { path: "marketplace", element: <MarketplacePage /> },
       { path: "donations", element: <DonationsPage /> },
+      { path: "id-card", element: <IdCardPage /> },
+      { path: "selfie-frame", element: <SelfieFramePage /> },
       { path: "*", element: <ComingSoon /> },
     ],
   },

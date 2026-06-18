@@ -240,3 +240,113 @@ export const mockDonations = [
     status: "COMPLETED"
   }
 ];
+
+export const mockCategories = [
+  { id: "home", label: "Home", path: "/" },
+  { id: "ap", label: "Andhra Pradesh", path: "/category/ap" },
+  { id: "ts", label: "Telangana", path: "/category/ts" },
+  { id: "national", label: "National", path: "/category/national" },
+  { id: "international", label: "International", path: "/category/international" },
+  { id: "cinema", label: "Cinema", path: "/category/cinema" },
+  { id: "sports", label: "Sports", path: "/category/sports" },
+  { id: "business", label: "Business", path: "/category/business" },
+];
+
+export const mockBreakingNews = [
+  "Heavy rains alert issued for coastal districts in Andhra Pradesh.",
+  "Sensex drops 500 points amid global market sell-off.",
+  "New updates on the highly anticipated pan-India movie release date.",
+  "Tech giant announces setting up a new campus in Hyderabad."
+];
+
+export const mockArticles = [
+  {
+    id: "ART-001",
+    title: "Major Investment Announced for New IT Hub in Visakhapatnam",
+    excerpt: "The state government today announced a massive investment package to develop Visakhapatnam as a premier IT destination, promising thousands of new jobs.",
+    content: "Full details of the IT hub investment in Visakhapatnam...",
+    category: "ap",
+    image: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80&w=800",
+    date: "2 hours ago",
+    author: "Special Correspondent"
+  },
+  {
+    id: "ART-002",
+    title: "Hyderabad Metro Phase 3 Detailed Project Report Submitted",
+    excerpt: "The detailed project report for the Phase 3 expansion of the Hyderabad Metro has been officially submitted to the central government for approval.",
+    content: "Details regarding Hyderabad Metro Phase 3...",
+    category: "ts",
+    image: "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&q=80&w=800",
+    date: "4 hours ago",
+    author: "City Bureau"
+  },
+  {
+    id: "ART-003",
+    title: "Parliament Session Begins Amid High Expectations on Budget",
+    excerpt: "The monsoon session of the Parliament has commenced today with the opposition demanding a discussion on inflation and employment generation.",
+    content: "National news coverage on parliament...",
+    category: "national",
+    image: "https://images.unsplash.com/photo-1541872703-74c5e44368f9?auto=format&fit=crop&q=80&w=800",
+    date: "5 hours ago",
+    author: "National Desk"
+  },
+  {
+    id: "ART-004",
+    title: "Global Tech Leaders Gather at AI Summit in Geneva",
+    excerpt: "Experts from around the world convene to discuss the ethical implications and future trajectory of artificial intelligence.",
+    content: "International AI summit details...",
+    category: "international",
+    image: "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&q=80&w=800",
+    date: "6 hours ago",
+    author: "World News"
+  },
+  {
+    id: "ART-005",
+    title: "Star Actor's Latest Action Thriller Crosses ₹100 Crore Mark",
+    excerpt: "The recently released action thriller has been declared a blockbuster, crossing the coveted 100 crore mark in its opening weekend.",
+    content: "Cinema box office details...",
+    category: "cinema",
+    image: "https://images.unsplash.com/photo-1536440136628-849c177e76a1?auto=format&fit=crop&q=80&w=800",
+    date: "7 hours ago",
+    author: "Entertainment Desk"
+  },
+  {
+    id: "ART-006",
+    title: "National Team Secures Thrilling Victory in Final Over",
+    excerpt: "In a nail-biting finish, the national cricket team secured a brilliant victory against their rivals in the T20 series decider.",
+    content: "Sports match summary...",
+    category: "sports",
+    image: "https://images.unsplash.com/photo-1531415074968-036ba1b575da?auto=format&fit=crop&q=80&w=800",
+    date: "8 hours ago",
+    author: "Sports Correspondent"
+  },
+  {
+    id: "ART-007",
+    title: "Inflation Drops Marginally, RBI Holds Repo Rate",
+    excerpt: "The Reserve Bank of India has decided to keep the repo rate unchanged for the third consecutive time as retail inflation shows signs of cooling.",
+    content: "Business economy details...",
+    category: "business",
+    image: "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&q=80&w=800",
+    date: "9 hours ago",
+    author: "Business Bureau"
+  },
+  {
+    id: "ART-008",
+    title: "Tirupati Brahmotsavam Preparations in Full Swing",
+    excerpt: "The TTD has commenced massive arrangements for the upcoming annual Brahmotsavam, expecting millions of devotees.",
+    content: "Devotional news from AP...",
+    category: "ap",
+    image: "https://images.unsplash.com/photo-1623062366113-1fcd68407cd2?auto=format&fit=crop&q=80&w=800",
+    date: "10 hours ago",
+    author: "Local Reporter"
+  }
+];
+
+export const getArticlesByCategory = (categoryId: string) => {
+  if (categoryId === "home") return mockArticles;
+  return mockArticles.filter(article => article.category === categoryId);
+};
+
+export const getArticleById = (articleId: string) => {
+  return mockArticles.find(article => article.id === articleId);
+};
