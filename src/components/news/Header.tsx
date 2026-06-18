@@ -33,9 +33,7 @@ export function Header() {
 
       <div className="bg-white py-4 px-4 flex justify-between items-center max-w-7xl mx-auto">
         <Link to="/" className="flex items-center gap-2">
-          <div className="bg-primary text-white font-black text-3xl px-3 py-1 tracking-tighter rounded-sm">
-            SOCIAL<span className="text-destructive">NEWS</span>
-          </div>
+          <img src="/logo.png" alt="SOCIAL NEWS" className="h-12 w-auto object-contain" />
         </Link>
         <div className="hidden md:flex items-center gap-6">
           <div className="relative">

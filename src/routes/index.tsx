@@ -4,6 +4,8 @@ import { StudentLayout } from "@/components/layouts/StudentLayout";
 import { AdminLayout } from "@/components/layouts/AdminLayout";
 
 import Home from "@/pages/public/Home";
+import CategoryPage from "@/pages/public/CategoryPage";
+import ArticlePage from "@/pages/public/ArticlePage";
 import PublicEventsPage from "@/pages/public/EventsPage";
 import PublicMarketplacePage from "@/pages/public/MarketplacePage";
 import PublicDonationsPage from "@/pages/public/DonationsPage";
@@ -26,6 +28,8 @@ const router = createBrowserRouter([
     element: <PublicLayout />,
     children: [
       { index: true, element: <Home /> },
+      { path: "category/:categoryId", element: <CategoryPage /> },
+      { path: "article/:articleId", element: <ArticlePage /> },
       { path: "events", element: <PublicEventsPage /> },
       { path: "marketplace", element: <PublicMarketplacePage /> },
       { path: "donations", element: <PublicDonationsPage /> },

@@ -7,8 +7,8 @@ export function Footer() {
       <div className="max-w-7xl mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-10">
           <div className="col-span-1 md:col-span-1">
-            <div className="bg-white text-primary font-black text-2xl px-3 py-1 tracking-tighter rounded-sm inline-block mb-4">
-              SOCIAL<span className="text-destructive">NEWS</span>
+            <div className="bg-white/10 p-2 rounded-lg inline-block mb-4">
+              <img src="/logo.png" alt="SOCIAL NEWS" className="h-10 w-auto object-contain" />
             </div>
             <p className="text-white/60 text-sm mb-6 pr-4 leading-relaxed">
               Your trusted source for local community impact, volunteer campaigns, and the latest breaking news.
