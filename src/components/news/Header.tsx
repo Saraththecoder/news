@@ -33,7 +33,7 @@ export function Header() {
 
       <div className="bg-white py-4 px-4 flex justify-between items-center max-w-7xl mx-auto">
         <Link to="/" className="flex items-center gap-2">
-          <img src="/logo.png" alt="SOCIAL NEWS" className="h-12 w-auto object-contain" />
+          <img src="/logo.png" alt="SOCIAL NEWS" className="h-8 md:h-12 w-auto max-w-[200px] md:max-w-xs object-contain" />
         </Link>
         <div className="hidden md:flex items-center gap-6">
           <div className="relative">
@@ -74,7 +74,7 @@ export function Header() {
       </div>
 
       {mobileMenuOpen && (
-        <div className="md:hidden bg-white border-t absolute top-full left-0 w-full shadow-lg">
+        <div className="md:hidden bg-white border-t absolute top-full left-0 w-full shadow-lg max-h-[80vh] overflow-y-auto">
           <div className="p-4 border-b flex flex-col gap-4">
              <div className="relative">
                <input 

@@ -22,7 +22,7 @@ export default function CategoryPage() {
   return (
     <div className="flex flex-col gap-8">
       <div className="border-b-4 border-primary pb-4 mb-4">
-        <h1 className="text-4xl font-black text-secondary uppercase tracking-tight">{category.label} NEWS</h1>
+        <h1 className="text-3xl md:text-4xl font-black text-secondary uppercase tracking-tight">{category.label} NEWS</h1>
         <p className="text-foreground/60 mt-2">Latest updates and stories from {category.label}.</p>
       </div>
 

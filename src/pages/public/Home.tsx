@@ -59,7 +59,7 @@ export default function Home() {
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
         <section>
           <div className="flex justify-between items-end mb-4 border-b-2 border-primary pb-2">
-            <h2 className="text-2xl font-black text-primary">ANDHRA PRADESH</h2>
+            <h2 className="text-xl md:text-2xl font-black text-primary">ANDHRA PRADESH</h2>
             <Link to="/category/ap" className="text-sm font-bold text-destructive flex items-center hover:underline">
               View All <ChevronRight className="w-4 h-4" />
             </Link>
@@ -73,7 +73,7 @@ export default function Home() {
 
         <section>
           <div className="flex justify-between items-end mb-4 border-b-2 border-primary pb-2">
-            <h2 className="text-2xl font-black text-primary">TELANGANA</h2>
+            <h2 className="text-xl md:text-2xl font-black text-primary">TELANGANA</h2>
             <Link to="/category/ts" className="text-sm font-bold text-destructive flex items-center hover:underline">
               View All <ChevronRight className="w-4 h-4" />
             </Link>
@@ -91,7 +91,7 @@ export default function Home() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
           <div>
             <div className="flex justify-between items-end mb-4 border-b-2 border-primary pb-2">
-              <h2 className="text-2xl font-black text-primary">NATIONAL</h2>
+              <h2 className="text-xl md:text-2xl font-black text-primary">NATIONAL</h2>
               <Link to="/category/national" className="text-sm font-bold text-destructive flex items-center hover:underline">
                 View All <ChevronRight className="w-4 h-4" />
               </Link>
@@ -104,7 +104,7 @@ export default function Home() {
           </div>
           <div>
             <div className="flex justify-between items-end mb-4 border-b-2 border-primary pb-2">
-              <h2 className="text-2xl font-black text-primary">INTERNATIONAL</h2>
+              <h2 className="text-xl md:text-2xl font-black text-primary">INTERNATIONAL</h2>
               <Link to="/category/international" className="text-sm font-bold text-destructive flex items-center hover:underline">
                 View All <ChevronRight className="w-4 h-4" />
               </Link>
@@ -121,7 +121,7 @@ export default function Home() {
       {/* Cinema */}
       <section className="bg-slate-900 text-white p-6 rounded-xl -mx-4 md:-mx-6 shadow-lg">
         <div className="flex justify-between items-end mb-6 border-b-2 border-white/20 pb-2">
-          <h2 className="text-2xl font-black text-white">CINEMA</h2>
+          <h2 className="text-xl md:text-2xl font-black text-white">CINEMA</h2>
           <Link to="/category/cinema" className="text-sm font-bold text-destructive flex items-center hover:underline">
             View All <ChevronRight className="w-4 h-4" />
           </Link>
@@ -145,7 +145,7 @@ export default function Home() {
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
         <section>
           <div className="flex justify-between items-end mb-4 border-b-2 border-primary pb-2">
-            <h2 className="text-2xl font-black text-primary">SPORTS</h2>
+            <h2 className="text-xl md:text-2xl font-black text-primary">SPORTS</h2>
             <Link to="/category/sports" className="text-sm font-bold text-destructive flex items-center hover:underline">
               View All <ChevronRight className="w-4 h-4" />
             </Link>
@@ -159,7 +159,7 @@ export default function Home() {
 
         <section>
           <div className="flex justify-between items-end mb-4 border-b-2 border-primary pb-2">
-            <h2 className="text-2xl font-black text-primary">BUSINESS</h2>
+            <h2 className="text-xl md:text-2xl font-black text-primary">BUSINESS</h2>
             <Link to="/category/business" className="text-sm font-bold text-destructive flex items-center hover:underline">
               View All <ChevronRight className="w-4 h-4" />
             </Link>
