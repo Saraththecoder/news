@@ -2,6 +2,7 @@ import { mockArticles, getArticlesByCategory } from "@/utils/mockData";
 import { NewsCard } from "@/components/news/NewsCard";
 import { Link } from "react-router-dom";
 import { ChevronRight } from "lucide-react";
+import { ContactSection } from "@/components/news/ContactSection";
 
 export default function Home() {
   const topStory = mockArticles[0];
@@ -171,6 +172,10 @@ export default function Home() {
           </div>
         </section>
       </div>
+
+      <hr className="border-border" />
+      
+      <ContactSection />
 
     </div>
   );
